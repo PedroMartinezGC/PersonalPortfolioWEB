@@ -53,6 +53,12 @@ h2{
 h3{
 	font-size: 18px;
 }
+h4{
+	font-size: 16px;
+}
+span{
+	font-size: 16px;
+}
 
 
 /* Barra de navegación / Cabecera */
@@ -70,7 +76,7 @@ header{
 
 header ul{
 	display: block;
-	width: 50%;
+	width: 25%;
 	height: inherit;
 	margin: 0px auto;
 	
@@ -96,12 +102,20 @@ header a{
 	transition: all 300ms;
 }
 header a:hover, .actived{
+	background: rgba(192, 192, 192, 0.8);
+}
+.projects1{
+	font-size: 27px;
+}
+
+.projects1 a:hover{
+	transition: all 300ms color 500ms, transform 500ms;
 	background: rgba(239, 184, 16, 0.8);
 }
 
 /* Logotipo */
 
-#logo{
+/*#logo{
 	font-family: "GonziRegular", Arial, Helvetica;
 	font-size: 27px;
 }
@@ -113,7 +127,7 @@ header a:hover, .actived{
 	background: transparent;
 	color: rgba(239, 184, 16, 0.8);
 	transform: scale(1.20, 1.20);
-}
+}*/
 
 /* Contenedor principal */
 
@@ -122,7 +136,7 @@ header a:hover, .actived{
 	height: auto;
 	width: 60%;
 	margin: 0px auto;
-	padding-bottom: 150px;
+	padding-bottom: 250px;
 	box-shadow: 0px 0px 40px black;
 	background: rgba(255, 250, 250);
 	/*background: rgba(0, 15, 27);*/
@@ -158,35 +172,41 @@ footer{
 	margin-bottom: 25px;
 }
 article.about{
-	width: 70%;
+	width: 80%;
 	margin: 0px auto;
 	margin-bottom: 20px;
 }
 .about h2{
-	border-bottom: 1px solid #ccc;
+	border-bottom: 3px solid #B0E0E6;
 	padding-bottom: 5px;
 	margin-bottom: 5px;
 }
 .about p{
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 45px;
 }
 #about-left{
-	width: 50%;
+	width: 43%;
 	height: 100%;
 	float: left;
 	display: block;
-
+}
+#about-left h3{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #B0E0E6;
+}
+#about-right h3{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #B0E0E6;
 }
 #about-left ul li{
 	list-style: none;
 }
 #about-right{
-	width: 50%;
+	width: 48%;
 	height: 100%;
 	float: right;
 	display: block;
-	background: blue;
 }
 .logo-about{
 	width: 60px;
