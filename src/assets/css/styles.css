@@ -1,0 +1,321 @@
+/* Importar fuentes custom */
+
+@font-face{
+	font-family: "yanone";
+	src: url("fonts/yanone.ttf");
+}
+@font-face{
+	font-family: "finger";
+	src: url("fonts/finger.ttf");
+}
+@font-face{
+	font-family: "GonziBold";
+	src: url("fonts/GonziBold.otf");
+}
+@font-face{
+	font-family: "GonziRegular";
+	src: url("fonts/GonziRegular.otf");
+}
+@font-face{
+	font-family: "Lustria";
+	src: url("fonts/Lustria.ttf");
+}
+
+/* Generales */
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	/**/
+	/*color: rgba(255, 250, 250);*/
+}
+
+body{
+	font-family: "Lustria", Arial, Helvetica;
+	font-size: 20px;
+	background: url("../img/grey2.jpg");
+	background-attachment: fixed;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+p, ul{
+	font-size: 16px;
+}
+h1{
+	font-size: 32px;
+}
+h2{
+	font-size: 25px;
+}
+h3{
+	font-size: 18px;
+}
+
+
+/* Barra de navegación / Cabecera */
+
+header{
+	font-family: "yanone", Arial, Helvetica;
+	display: block;
+	width: 100%;
+	height: 95px;
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+
+header ul{
+	display: block;
+	width: 50%;
+	height: inherit;
+	margin: 0px auto;
+	
+}
+
+header ul li{
+	display: inline-block;
+	margin: 0px auto;
+	text-align: center;
+	/*font-weight: bold;*/
+	font-size: 25px;
+	line-height: 95px;
+	position: center;
+}
+header a{
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 0px auto;
+	height: inherit;
+	text-decoration: none;
+	color: white;
+	transition: all 300ms;
+}
+header a:hover, .actived{
+	background: rgba(239, 184, 16, 0.8);
+}
+
+/* Logotipo */
+
+#logo{
+	font-family: "GonziRegular", Arial, Helvetica;
+	font-size: 27px;
+}
+#logo a{
+	transition: color 500ms, transform 500ms;
+}
+
+#logo a:hover{
+	background: transparent;
+	color: rgba(239, 184, 16, 0.8);
+	transform: scale(1.20, 1.20);
+}
+
+/* Contenedor principal */
+
+#content{
+	min-height: 1000px;
+	height: auto;
+	width: 60%;
+	margin: 0px auto;
+	padding-bottom: 150px;
+	box-shadow: 0px 0px 40px black;
+	background: rgba(255, 250, 250);
+	/*background: rgba(0, 15, 27);*/
+	padding-top: 150px;
+}
+
+/* footer */
+
+footer{
+	width: 60%;
+	margin: 0px auto;
+	/*margin-top: 25px;
+	margin-bottom: 20px;*/
+	height: 100%;
+	font-size: 14px;
+	background: rgb(0, 0, 0, 0.8);
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+/* About me */
+
+#title{
+	width: 70%;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+#title h2{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+article.about{
+	width: 70%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+.about h2{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.about p{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#about-left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: block;
+
+}
+#about-left ul li{
+	list-style: none;
+}
+#about-right{
+	width: 50%;
+	height: 100%;
+	float: right;
+	display: block;
+	background: blue;
+}
+.logo-about{
+	width: 60px;
+}
+
+/* Form section */
+
+.container{
+	width: 90%;
+	padding: 50px;
+	padding-top: 10px;
+}
+.container form{
+	width: 70%;
+}
+.container h2{
+	display: block;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+/*.container{
+	float: left;
+	width: 60%;
+}*/
+.container .image img{
+	width: 50%;
+	float: left;
+}
+.container .data{
+	float: right;
+	width: 45%;
+}
+form{
+	width: 80%;
+	font-family: Arial, Helvetica;
+}
+form label{
+	display: block;
+	width: 100%;
+}
+form input[type = "text"],
+form input[type = "number"],
+form input[type = "email"],
+form input[type = "file"],
+form textarea{
+	width: 50%;
+	padding: 5px;
+	margin-bottom: 15px;
+	color: black;
+}
+form button,
+form input[type = "submit"],
+.button-edit, .button-delete{
+	font-family: "yanone", Arial, Helvetica;
+	font-size: 16px;
+	display: block;
+	font-size: 17px;
+	padding: 15px;
+	margin-top: 15px;
+	background: rgba(239, 184, 16, 0.8);
+	border: 1px black;
+	color: black;
+	cursor: pointer;
+}
+.button-edit{
+	text-decoration: none;
+	width: 15%;
+	color: white;
+	display: block;
+	margin: 20px;
+}
+.button-delete{
+	text-decoration: none;
+	width: 15%;
+	background: brown;
+	color: white;
+	display: block;
+	margin: 20px;
+}
+form input[disabled]{
+	opacity: 0.3;
+}
+form button,
+form input[type = "submit"]:hover{
+	background: rgba(239, 184, 16, 1);
+	cursor: pointer;
+}
+.form_error{
+	color: red;
+	font-size: 14px;
+	padding-left: 7px;
+}
+.message{
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+.success{
+	background: green;
+	color: white;
+}
+.success a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: inherit;
+}
+.failed{
+	background: brown;
+	color: white;
+}
+
+/*Projects page*/
+
+.project{
+	margin: 50px;
+}
+.project img{
+	width: 400px;
+}
+.project a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/*Detail project*/
+
+.confirm{
+	font-size: 14px;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}

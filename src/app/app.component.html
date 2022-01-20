@@ -1,0 +1,23 @@
+
+  <header>
+    <ul>
+      <li><a [routerLink] = "['/about']" [routerLinkActive] = "['actived']">ABOUT ME</a></li>
+      <li><a [routerLink] = "['/projects']" [routerLinkActive] = "['actived']">PROJECTS</a></li>
+      <li id = "logo"><a href = "#"> PMGC</a></li>
+      <li><a [routerLink] = "['/create-project']" [routerLinkActive] = "['actived']">CREATE PROJECT</a></li>
+      <li><a [routerLink] = "['/contact']" [routerLinkActive] = "['actived']">CONTACT</a></li>
+    </ul>
+  </header>
+
+  <section id = "content">
+    <router-outlet></router-outlet>
+  </section>
+
+  <footer>
+      Personal Portfolio of Pedro Martínez-Grande Cicuéndez <br><br>
+      pedromartinezgcicuendez@gmail.com
+  </footer>
+
+  
+
+  
