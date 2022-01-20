@@ -13,4 +13,8 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scrollTop(){
+  	window.scrollTo(0,0);
+  }
+
 }

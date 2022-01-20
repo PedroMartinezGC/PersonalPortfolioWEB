@@ -158,6 +158,13 @@ footer{
 	padding-bottom: 25px;
 	text-align: center;
 }
+#scroll{
+	display: block;
+	float: right;
+	margin-right: 30px;
+	color: #ccc;
+	cursor: pointer;
+}
 
 /* About me */
 
@@ -227,6 +234,7 @@ article.about{
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 10px;
 	margin-bottom: 15px;
+	border-bottom: 3px solid #B0E0E6;
 }
 /*.container{
 	float: left;
