@@ -23,14 +23,28 @@
 			<ul>
 				<li>English		B2 aprox.</li>
 				<li>Italian		B2 aprox.</li>
-				<li>JavaScript		Advanced</li>
-				<li>Angular		Advanced</li>
 				<li>JQuery/UI		Intermediate</li>
-				<li>C#		Intermediate</li>
 				<li>Cype3D		Intermediate-Advanced</li>
 				<li>AutoCAD		Intermediate</li>
 			</ul>
-		<img class = "logo-about" src = "../../assets/img/AngularLogo.png"/>
+
+
+		<br><br>
+		<a><img class = "logo-about angular" src = "../../assets/img/AngularLogo.png"/>&nbsp;
+			{{angular_value +"%"}}</a>
+		<p-slider [(ngModel)]="angular_value"></p-slider>
+
+		<br><br>
+		<a><img class = "logo-about js" src = "../../assets/img/JSLogo.png"/>&nbsp;
+			{{js_value +"%"}}</a>
+		<p-slider [(ngModel)]="js_value"></p-slider>
+
+		<br><br>
+		<a><img class = "logo-about js" src = "../../assets/img/CSharpLogo.png"/>&nbsp;
+			{{csharp_value +"%"}}</a>
+		<p-slider [(ngModel)]="csharp_value"></p-slider>
+
+
 	</div>
 	<div id = "about-right">
 		<h3>ACADEMIC PROFILE</h3><br>

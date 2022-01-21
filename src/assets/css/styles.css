@@ -132,7 +132,7 @@ header a:hover, .actived{
 /* Contenedor principal */
 
 #content{
-	min-height: 1000px;
+	min-height: 1500px;
 	height: auto;
 	width: 60%;
 	margin: 0px auto;
@@ -154,7 +154,7 @@ footer{
 	font-size: 14px;
 	background: rgb(0, 0, 0, 0.8);
 	color: white;
-	padding-top: 25px;
+	padding-top: 200px;
 	padding-bottom: 25px;
 	text-align: center;
 }
@@ -218,7 +218,10 @@ article.about{
 .logo-about{
 	width: 60px;
 }
-
+.js{
+	width: 45px;
+	margin-left: 10px;
+}
 /* Form section */
 
 .container{

@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonModule } from 'primeng/button';
+import { SliderModule } from 'primeng/slider';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
@@ -14,6 +17,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +31,10 @@ import { ErrorComponent } from './components/error/error.component';
     AppRoutingModule,
     routing, 
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    ButtonModule,
+    SliderModule
   ],
   providers: [
     appRoutingProviders
