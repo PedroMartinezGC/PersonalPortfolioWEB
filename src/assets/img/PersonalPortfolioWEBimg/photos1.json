@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/blueTheme.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/blueTheme.png",
+            "alt": "Web blue theme",
+            "title": "Blue theme"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/redTheme.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/redTheme.png",
+            "alt": "Web red theme",
+            "title": "Red theme"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/greenTheme.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/greenTheme.png",
+            "alt": "Web green theme",
+            "title": "Green theme"
+        }
+    ]
+}

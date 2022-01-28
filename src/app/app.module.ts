@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonModule } from 'primeng/button';
 import { SliderModule } from 'primeng/slider';
+import { GalleriaModule } from 'primeng/galleria';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { routing, appRoutingProviders } from './app.routing';
+import { PhotoService } from './services/project.service';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -34,10 +36,12 @@ import { ErrorComponent } from './components/error/error.component';
     FormsModule,
     BrowserAnimationsModule,
     ButtonModule,
-    SliderModule
+    SliderModule,
+    GalleriaModule
   ],
   providers: [
-    appRoutingProviders
+    appRoutingProviders,
+    PhotoService
   ],
   bootstrap: [AppComponent]
 })

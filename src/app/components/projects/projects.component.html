@@ -1,17 +1,22 @@
 <div class = "container">
 	<h2>Projects</h2>
 
-	<!--<ul>
-		<li class = "project" *ngFor = "let project of projects">
-			<a [routerLink] = "['/project', project._id]">
-				<img src = "{{url+'get-image/'+project.image}}" *ngIf = "project.image"/>
-				<h3>{{project.name}}</h3>
-			</a>
+	<div class = "galleria">
+		<p-galleria [value]="images" [numVisible]="3" [showItemNavigators] = "true" 
+		[circular] = "true">
+    		<ng-template pTemplate="item" let-item>
+       			<img [src]="item.previewImageSrc" [alt]="item.alt" style="width: 100%;
+       			 display: block; heigth: 100%;" />
+    		</ng-template>
+    		<ng-template pTemplate="thumbnail" let-item>
 
-			<p>{{project.category}}</p>
-			
-		</li>
-	</ul>-->
+        		<div>
+            		<img class="miniature" [src]="item.thumbnailImageSrc" />
+        		</div>
+    		</ng-template>
+		</p-galleria>
+	</div>
+	
 
 	
 	
