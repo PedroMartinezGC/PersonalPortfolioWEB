@@ -32,6 +32,7 @@ export class ProjectsComponent implements OnInit {
 
     ngOnInit(): void {
         this.photoService.getImages().then(images => this.images = images);
+
     }
 
 

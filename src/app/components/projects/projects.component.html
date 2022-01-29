@@ -1,9 +1,13 @@
 <div class = "container">
-	<h2>Projects</h2>
+	<h1 style = "margin-bottom: 50px; border-bottom: 3px solid #B0E0E6; 
+	padding-bottom: 5px;">PROJECTS</h1>
 
 	<div class = "galleria">
+		<h2 style = "border-bottom: none;">Dynamic web (JavaScript + JQuery UI)</h2>
+
 		<p-galleria [value]="images" [numVisible]="3" [showItemNavigators] = "true" 
-		[circular] = "true">
+		[circular] = "true" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}">
+
     		<ng-template pTemplate="item" let-item>
        			<img [src]="item.previewImageSrc" [alt]="item.alt" style="width: 100%;
        			 display: block; heigth: 100%;" />
@@ -14,7 +18,19 @@
             		<img class="miniature" [src]="item.thumbnailImageSrc" />
         		</div>
     		</ng-template>
+    		<ng-template pTemplate="caption" let-item>
+        		<h4 style="margin-bottom: .5rem; color: #ffffff;">{{item.title}}</h4>
+        		<p>{{item.alt}}</p>
+    		</ng-template>
 		</p-galleria>
+	</div>
+
+	<div class = "preview-container">
+		<a href = "#">
+			<h2>Dynamic web (JavaScript + JQuery UI)</h2>
+			<img class = "preview" src = "../../assets/img/PersonalPortfolioWEBimg/greenTheme.png"/>
+		</a>
+
 	</div>
 	
 
