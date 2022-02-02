@@ -1,10 +1,10 @@
 {
     "data":[
         {
-            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/blueTheme.png",
-            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/blueTheme.png",
-            "alt": "Web blue theme",
-            "title": "Blue theme"
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/mainView.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/mainView.png",
+            "alt": "View of the main website's main page",
+            "title": "Main view"
         },
         {
             "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/redTheme.png",
@@ -13,10 +13,52 @@
             "title": "Red theme"
         },
         {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/blueTheme.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/blueTheme.png",
+            "alt": "Web blue theme",
+            "title": "Blue theme"
+        },
+        {
             "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/greenTheme.png",
             "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/greenTheme.png",
             "alt": "Web green theme",
             "title": "Green theme"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/logIn.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/logIn.png",
+            "alt": "Option for login in the webpage with an user",
+            "title": "Login"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/logOut.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/logOut.png",
+            "alt": "Option for close the opened session",
+            "title": "Logout"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/slider.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/slider.png",
+            "alt": "Slider that shows images automatically",
+            "title": "Slider"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/clock.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/clock.png",
+            "alt": "Clock which updates every second ",
+            "title": "Clock"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/accordion.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/accordion.png",
+            "alt": "Accordion plugin imported from JQuery UI",
+            "title": "Accordion"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioWEBimg/validationForm.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioWEBimg/validationForm.png",
+            "alt": "Form with validation",
+            "title": "Form"
         }
     ]
 }

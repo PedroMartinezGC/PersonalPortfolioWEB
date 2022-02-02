@@ -155,7 +155,7 @@ footer{
 	font-size: 14px;
 	background: rgb(0, 0, 0, 0.8);
 	color: white;
-	padding-top: 200px;
+	padding-top: 80px;
 	padding-bottom: 25px;
 	text-align: center;
 }
@@ -224,12 +224,13 @@ article.about{
 	width: 45px;
 	margin-left: 10px;
 }
-/* Form section */
+/* Fo */
 
 .container{
 	width: 90%;
 	padding: 50px;
 	padding-top: 10px;
+	margin-left: 40px;
 }
 .container form{
 	width: 70%;
@@ -241,10 +242,6 @@ article.about{
 	margin-bottom: 15px;
 	border-bottom: 3px solid #B0E0E6;
 }
-/*.container{
-	float: left;
-	width: 60%;
-}*/
 .container .image img{
 	width: 50%;
 	float: left;
@@ -253,85 +250,6 @@ article.about{
 	float: right;
 	width: 45%;
 }
-/*form{
-	width: 80%;
-	font-family: Arial, Helvetica;
-}
-form label{
-	display: block;
-	width: 100%;
-}
-form input[type = "text"],
-form input[type = "number"],
-form input[type = "email"],
-form input[type = "file"],
-form textarea{
-	width: 50%;
-	padding: 5px;
-	margin-bottom: 15px;
-	color: black;
-}
-form button,
-form input[type = "submit"],
-.button-edit, .button-delete{
-	font-family: "yanone", Arial, Helvetica;
-	font-size: 16px;
-	display: block;
-	font-size: 17px;
-	padding: 15px;
-	margin-top: 15px;
-	background: rgba(239, 184, 16, 0.8);
-	border: 1px black;
-	color: black;
-	cursor: pointer;
-}
-.button-edit{
-	text-decoration: none;
-	width: 15%;
-	color: white;
-	display: block;
-	margin: 20px;
-}
-.button-delete{
-	text-decoration: none;
-	width: 15%;
-	background: brown;
-	color: white;
-	display: block;
-	margin: 20px;
-}
-form input[disabled]{
-	opacity: 0.3;
-}
-form button,
-form input[type = "submit"]:hover{
-	background: rgba(239, 184, 16, 1);
-	cursor: pointer;
-}
-.form_error{
-	color: red;
-	font-size: 14px;
-	padding-left: 7px;
-}
-.message{
-	font-size: 16px;
-	border-bottom: 1px solid #ccc;
-	padding: 10px;
-}
-.success{
-	background: green;
-	color: white;
-}
-.success a{
-	text-decoration: none;
-	font-weight: bolder;
-	color: inherit;
-}
-.failed{
-	background: brown;
-	color: white;
-}*/
-
 
 /*Projects page*/
 
@@ -354,19 +272,37 @@ form input[type = "submit"]:hover{
 }
 .preview-container{
 	width: 90%;
-	height: 250px;
-	margin-top: 100px;
+	height: 650px;
+	display: block;
+	margin-top: 80px;
 	margin-bottom: 100px;
+	background: rgba(0, 0, 0, 0.8);
+}
+.preview-container a{
+	text-decoration: none;
+	
 }
 .preview-container h2{
 	border-bottom: none;
-	background: rgba(0, 0, 0, 0.8);
+	/*background: rgba(0, 0, 0, 0.8);*/
 	color: white;
 	padding: 20px;
+	margin-bottom: 0px;
 	text-align: center;
 }
+.preview-footer{
+	height: 20px;
+	width: inherit;
+	margin-top: 0px;
+	margin-bottom: 200px;
+	background: rgba(0, 0, 0, 0.8);
+}
 .preview{
-	width: 100%;
+	width: 95%;
+	height: 90%;
+	max-height: 520px;
+	display: block;
+	margin: auto;
 }
 
 /*Detail project*/
@@ -375,4 +311,7 @@ form input[type = "submit"]:hover{
 	font-size: 14px;
 	border-top: 1px solid #ccc;
 	padding-top: 10px;
+}
+.caption{
+	visibility: hidden;
 }

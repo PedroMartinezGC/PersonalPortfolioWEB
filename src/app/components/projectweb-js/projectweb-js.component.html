@@ -1,0 +1,41 @@
+
+<div class = "container galleria">
+    <h2 >{{title}}</h2>
+
+    <div style = "padding-bottom: 80px; padding-top: 25px; width: 80%;">
+        <h3>DESCRIPTION</h3><br>
+        <p>
+            Web developed with JavaScript, using JQuery for the structure and JQuery UI for adding plugins. <br><br>The web have 4 pages, in which there are an universal clock, an accordion, an slider for images and 
+            a list of articles that can be added, in the main page.<br><br>
+            Also there is a contact form with fields validation, and the possibility for log in and log out the page with a random user (no real users).
+            The page have 3 color themes: red, blue and green, which can be changed on each moment, and have been configured using the local storage.
+        </p><br><br>
+
+        <h3>LANGUAGES OR TOOLS USED</h3><br>
+        <ul *ngFor ="let lang of langs">
+            <li>{{lang}}</li><br>
+        </ul><br>
+
+        <h3>SCREENSHOTS</h3>
+    </div>
+	
+
+	<p-galleria [value]="images" [numVisible]="5" [showItemNavigators] = "true" 
+	[circular] = "true" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}">
+
+    	<ng-template pTemplate="item" let-item>
+       		<img [src]="item.previewImageSrc" [alt]="item.alt" style="width: 100%;
+       		 display: block; heigth: 100%;" />
+    	</ng-template>
+    	<ng-template pTemplate="thumbnail" let-item>
+
+        	<div>
+            	<img class="miniature" [src]="item.thumbnailImageSrc" />
+        	</div>
+    	</ng-template>
+    	<ng-template pTemplate="caption" let-item>
+        	<h4 style="margin-bottom: .5rem; color: #ffffff;">{{item.title}}</h4>
+        	<p>{{item.alt}}</p>
+    	</ng-template>
+	</p-galleria>
+</div>
