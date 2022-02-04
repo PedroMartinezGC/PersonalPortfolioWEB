@@ -114,26 +114,10 @@ header a:hover, .actived{
 	background: rgba(239, 184, 16, 0.8);
 }
 
-/* Logotipo */
-
-/*#logo{
-	font-family: "GonziRegular", Arial, Helvetica;
-	font-size: 27px;
-}
-#logo a{
-	transition: color 500ms, transform 500ms;
-}
-
-#logo a:hover{
-	background: transparent;
-	color: rgba(239, 184, 16, 0.8);
-	transform: scale(1.20, 1.20);
-}*/
-
 /* Contenedor principal */
 
 #content{
-	min-height: 1500px;
+	min-height: 1700px;
 	height: auto;
 	width: 60%;
 	margin: 0px auto;
@@ -224,6 +208,9 @@ article.about{
 	width: 45px;
 	margin-left: 10px;
 }
+.gitfile{
+	width: 40px;
+}
 /* Fo */
 
 .container{
@@ -245,6 +232,10 @@ article.about{
 .container .image img{
 	width: 50%;
 	float: left;
+}
+.container a{
+	text-decoration: none;
+	color: inherit;
 }
 .container .data{
 	float: right;

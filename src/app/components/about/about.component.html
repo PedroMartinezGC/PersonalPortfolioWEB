@@ -14,22 +14,14 @@
 	<div id = "about-left">
 		<h3>PERSONAL PROFILE</h3>
 		<p>
-			I have programming knowledge, learned in the degree, self learning and with online courses. I am very interested on web and app developement. My main skills are based on JavaScript,  Angular, C# and also no relational data bases, using systems like MongoDB, with NodeJS.<br><br>
+			I have programming knowledge, learned in the degree, self learning and with online courses. I am very interested on web and app developement. <br><br>My main skills are based on JavaScript,  Angular, C# and also no relational data bases, using systems like MongoDB, with NodeJS. <br><br>Also I have used libraries like JQuery, JQuery UI and PrimeNG.<br><br>
 
 			I have spent a year in other country, which have gave to me the opportunity of staying in contact with many kind of people, so the movility insid and outside the country won't be a problem.
 		</p>
 
 		<h3>SKILLS</h3><br>
-			<ul>
-				<li>English		B2 aprox.</li>
-				<li>Italian		B2 aprox.</li>
-				<li>JQuery/UI		Intermediate</li>
-				<li>Cype3D		Intermediate-Advanced</li>
-				<li>AutoCAD		Intermediate</li>
-			</ul>
 
-
-		<br><br>
+		<br>		
 		<a><img class = "logo-about angular" src = "../../assets/img/AngularLogo.png"/>&nbsp;
 			{{angular_value +"%"}}</a>
 		<p-slider [(ngModel)]="angular_value"></p-slider>
@@ -43,6 +35,22 @@
 		<a><img class = "logo-about js" src = "../../assets/img/CSharpLogo.png"/>&nbsp;
 			{{csharp_value +"%"}}</a>
 		<p-slider [(ngModel)]="csharp_value"></p-slider>
+		<br><br><br>
+
+		<h3>LANGUAGES</h3>
+
+		<br><br>
+		<a>English</a>
+		<a style = "font-size: 14px; float: right">Intermediate</a>
+		<p-slider [(ngModel)]="english_level"></p-slider>
+
+		<br><br>
+		<a>Italian</a>
+		<a style = "font-size: 14px; float: right">Intermediate</a>
+		<p-slider [(ngModel)]="italian_level"></p-slider>
+		
+
+		
 
 
 	</div>
@@ -66,7 +74,9 @@
 		<span>Erasmus+</span>
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;9 months</p>
 
-		<a href = "https://github.com/PedroMartinezGC"><img class = "logo-about angular" src = "../../assets/img/GitHubLogo.png"/></a>
+		<h3></h3><br>
+		<a href = "https://github.com/PedroMartinezGC" target = "blank" title = "Go to GitHub"><img class = "logo-about angular" src = "../../assets/img/GitHubLogo.png"/></a>
+		<a style = "margin-left: 15px;">&nbsp;Visit me on gitHub</a>
 
 	</div>
 </article>

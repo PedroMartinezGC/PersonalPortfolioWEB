@@ -12,6 +12,8 @@ export class AboutComponent implements OnInit {
   public angular_value: number;
   public js_value: number;
   public csharp_value: number;
+  public english_level: number;
+  public italian_level: number;
 
 
   constructor() {
@@ -21,6 +23,8 @@ export class AboutComponent implements OnInit {
     this.angular_value = 60;
     this.js_value = 75;
     this.csharp_value = 45;
+    this.english_level = 50;
+    this.italian_level = 50;
   }
 
   ngOnInit(): void {
