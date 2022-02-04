@@ -1,0 +1,70 @@
+{
+    "data":[
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/robo3t.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/robo3t.png",
+            "alt": "Conection to the database with Robo3T",
+            "title": "MongoDB database conection"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/robo3tDB.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/robo3tDB.png",
+            "alt": "Initially empty projects collection",
+            "title": "Projects collection"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/createProject.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/createProject.png",
+            "alt": "Page for add new projects to de database from de application",
+            "title": "Create project"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/validationMessage.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/validationMessage.png",
+            "alt": "Validation message if the project has been created correctly or not",
+            "title": "Validation message"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/projectList.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/projectList.png",
+            "alt": "Page where created projects are shown",
+            "title": "Project list"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/robo3tDB2.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/detailProject.png",
+            "alt": "Project added to the database",
+            "title": "New project in the database"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/mongoAtlas.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/mongoAtlas.png",
+            "alt": "The project seen correctly in the MongoDB Atlas web",
+            "title": "MongoBD Atlas"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/detailProject.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/detailProject.png",
+            "alt": "Page for each project, we can edit or delete it",
+            "title": "Detail project"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/editProject.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/editProject.png",
+            "alt": "All the project's attributes can be changed",
+            "title": "Edit project"
+        },
+        {
+            "previewImageSrc": "assets/img/PersonalPortfolioDBimg/deleteProject.png",
+            "thumbnailImageSrc": "assets/img/PersonalPortfolioDBimg/deleteProject.png",
+            "alt": "The project can be deleted. There is a second answer for it.",
+            "title": "Delete project"
+        }
+        
+
+
+
+
+    
+    ]
+}

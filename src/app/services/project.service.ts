@@ -10,8 +10,15 @@ export class PhotoService {
 
   constructor(private http: HttpClient) { }
 
-   getImages() {
+   getImagesDynamicWebJS() {
     return this.http.get<any>('assets/img/PersonalPortfolioWEBimg/photos1.json')
+      .toPromise()
+      .then(res => <Image[]>res.data)
+      .then(data => { return data; });
+    }
+    
+    getImagesPersonalPortfolioDB() {
+    return this.http.get<any>('assets/img/PersonalPortfolioDBimg/photos1.json')
       .toPromise()
       .then(res => <Image[]>res.data)
       .then(data => { return data; });

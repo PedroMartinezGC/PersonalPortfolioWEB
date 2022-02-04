@@ -3,19 +3,19 @@ import { GalleriaModule } from 'primeng/galleria';
 import { PhotoService } from '../../services/project.service';
 
 @Component({
-  selector: 'app-projectweb-js',
-  templateUrl: './projectweb-js.component.html',
-  styleUrls: ['./projectweb-js.component.css']
+  selector: 'app-project-db',
+  templateUrl: './project-db.component.html',
+  styleUrls: ['./project-db.component.css']
 })
-export class ProjectwebJSComponent implements OnInit {
+export class ProjectDBComponent implements OnInit {
 
 	public images: any[];
   public title: string;
   public langs: string[];
 
   	constructor(private photoService: PhotoService){
-      this.langs = ["JavaScript", "JQuery", "JQuery UI"];
-      this.title = "Dynamic web (JavaScript + JQuery UI)";
+      this.langs = ["Angular", "NodeJS", "MongoDB", "Postman", "Robo3T"];
+      this.title = "Application for upload and modify projects in a MongoDB Atlas database from an API";
     }
 
   	responsiveOptions:any[] = [
@@ -34,7 +34,7 @@ export class ProjectwebJSComponent implements OnInit {
     ];
 
   	ngOnInit(): void{
-  		this.photoService.getImagesDynamicWebJS().then(images => this.images = images);
+  		this.photoService.getImagesPersonalPortfolioDB().then(images => this.images = images);
   	}
 
   	@Input() showIndicators: boolean;

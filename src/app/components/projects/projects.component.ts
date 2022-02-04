@@ -31,23 +31,12 @@ export class ProjectsComponent implements OnInit {
     ];
 
     ngOnInit(): void {
-        this.photoService.getImages().then(images => this.images = images);
-
     }
 
 
     scrollTop(){
         window.scrollTo(0,0);
     }
-
-    @Input() showIndicators: boolean;
-    @Input() changeItemOnIndicatorHover: boolean;
-    @Input() showIndicatorsOnItem: boolean;
-    @Input() indicatorsPosition: boolean;
-    @Input() showItemNavigators: boolean;
-    @Input() circular: boolean;
-
-    //@Input() numVisible: number = 3;
     
 
 

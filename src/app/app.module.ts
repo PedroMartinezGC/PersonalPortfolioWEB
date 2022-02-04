@@ -19,6 +19,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
 import { ProjectwebJSComponent } from './components/projectweb-js/projectweb-js.component';
+import { ProjectDBComponent } from './components/project-db/project-db.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProjectwebJSComponent } from './components/projectweb-js/projectweb-js.
     ProjectsComponent,
     ContactComponent,
     ErrorComponent,
-    ProjectwebJSComponent
+    ProjectwebJSComponent,
+    ProjectDBComponent
   ],
   imports: [
     BrowserModule,

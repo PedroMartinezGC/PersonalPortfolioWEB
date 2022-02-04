@@ -1,0 +1,51 @@
+<div class = "container galleria">
+    <h2 >{{title}}</h2>
+
+    <div style = "padding-bottom: 80px; padding-top: 25px; width: 80%;">
+        <h3>DESCRIPTION</h3><br>
+        <p>
+    		Web created for introduce projects in a MongoDB database, using the API REST and 
+    		introducing the project especifications from a form. The backend have been created with
+    		NodeJS.<br><br>
+    		Created projects are shown in "Projects" page, and each one can be updated or deleted from the database.
+        </p><br><br>
+
+        <h3>LANGUAGES OR TOOLS USED</h3><br>
+        <ul *ngFor ="let lang of langs">
+            <li style = "list-style: circle;">{{lang}}</li><br>
+        </ul><br>
+
+        <h3>SCREENSHOTS</h3><br><br>
+        <p-galleria [value]="images" [numVisible]="5" [showItemNavigators] = "true" 
+        [circular] = "true" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}">
+
+            <ng-template pTemplate="item" let-item>
+                <img [src]="item.previewImageSrc" [alt]="item.alt" style="width: 100%;
+                display: block; heigth: 100%;" />
+            </ng-template>
+            <ng-template pTemplate="thumbnail" let-item>
+
+                <div>
+                    <img class="miniature" [src]="item.thumbnailImageSrc" />
+                </div>
+            </ng-template>
+            <ng-template pTemplate="caption" let-item>
+                <h4 style="margin-bottom: .5rem; color: #ffffff;">{{item.title}}</h4>
+                <p>{{item.alt}}</p>
+            </ng-template>
+        </p-galleria>
+
+        <br><br><br>
+
+        <h3>INTERESTING CODE</h3><br>
+        <p>
+            Services used in the app. Using different methods like get(), post(), delete() and put().
+        </p><br>
+        <img src = "assets/img/PersonalPortfolioDBimg/servicesCode1.png" style = "width: 100%;">
+        <img src = "assets/img/PersonalPortfolioDBimg/servicesCode2.png" style = "width: 100%;">
+    </div>
+	
+
+	
+</div>
+
